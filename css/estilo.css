@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300i,400,400i');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-dicas {
+  -webkit-box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
+  box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
+
+
+}
+
+/** CONFIGURAÇÃO MENU **/
+ .bg-topo {
+  background-color: black;
+  opacity: 1;
+
+}
+   .navbar {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgb(0, 0, 0) !important; 
+
+
+}
+
+.bg-menu a:hover {
+	background-color: #FF8000;
+}
+
+.bg-logo {
+  width: 100px;
+  height: 100px;
+}
+/** CONFIGURAÇÃO MARCAS **/
+.bg-marcas:hover {
+  box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
+  border: 5px solid #f7f7f7;
+	transition: 0.8s;
+}
+
+/** CONFIGURAÇÃO NOSSA MISSÃO **/
+.bg-parallax {
+  background:url(../img/parallax2.jpg) fixed;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100%;
+
+  
+}
+
+/** CONFIGURAÇÃO GERAL **/
+.underline {
+  content: '';
+  border-top: 2px solid #FF8000;
+  width: 100px;
+  display: block;
+  margin-bottom: 8px;
+  margin-right: auto;
+}
+.underline-patrocinio {
+  content: '';
+  border-top: 2px solid #FF8000;
+  width: 100px;
+  display: block;
+  margin-bottom: 8px;
+  margin: 0 auto; 
+}
+
+.underline-footer {
+  content: '';
+  border-top: 2px solid #FF8000;
+  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+  margin: 0 auto; 
+}
+
+
+
+ @media only screen and (max-width: 300px) {
+  /* For mobile phones: */
+  .bg-body {
+    width: 100%;
+    
+  }
+  
+}
+ 
+
+
+

@@ -1,0 +1,130 @@
+
+  
+ 
+
+  
+  body {
+    background-color: #7159c1 !important;
+    
+  }
+  
+  section {
+    width: 50%;
+    margin: 0 20%;
+    padding: 30px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  
+  h1 {
+      text-align: center;
+    font-size: 32px !important;
+    letter-spacing: 1px !important;
+    margin: 20px 0 !important;
+    color: white !important;
+  }
+  
+  form {
+    margin: 5px !important;
+    background-color: white !important;
+    padding: 30px 85px !important;
+    border-radius: 5px !important;
+  }
+  
+  form .input-block {
+    margin-bottom: 20px !important;
+  }
+  
+  form .input-block label {
+    font-size: 18px !important;
+    color: darkslateblue !important;
+  }
+  
+  form .input-block input {
+    width: 100% !important;
+    display: block !important;
+    margin-top: 8px !important;
+    padding: 7px !important;
+    font-size: 20px !important;
+    color: #7159c1 !important;
+    border-radius: 2px !important;
+    border: 1px solid #ccddef !important;
+    outline-color: #7159c1 !important;
+  }
+
+  form .input-block textarea {
+    width: 100% !important;
+    display: block !important;
+    margin-top: 8px !important;
+    padding: 7px !important;
+    font-size: 20px !important;
+    color: #7159c1 !important;
+    border-radius: 2px !important;
+    border: 1px solid #ccddef !important;
+    outline-color: #7159c1 !important;
+  }  
+  
+  form .btn-enviar {
+    display: block !important;
+    min-width: 120px !important;
+    border: none !important;
+    background-color: #7159c1 !important;
+    color: white !important;
+    border-radius: 25px !important;
+    margin: auto !important;
+    padding: 7px !important;
+  }
+
+  /* APARIÇÃO DO FORM */
+
+  form .input-block:nth-child(1) {
+      animation-name: fade;
+      animation-duration: 800ms;
+      animation-delay: 250ms;
+  }
+
+  form .input-block:nth-child(2) {
+    animation-name: fade;
+    animation-duration: 800ms;
+    animation-delay: 550ms;
+    animation-fill-mode: backwards;
+  }
+
+  form .input-block:nth-child(3) {
+    animation-name: fade;
+    animation-duration: 800ms;
+    animation-delay: 750ms;
+    animation-fill-mode: backwards;
+  }
+  
+
+  @keyframes fade {
+      from {
+          opacity: 0;
+          transform: translateX(-15%);
+      }
+      to {
+          opacity: 1;
+          transform: translateX(0%);
+      }
+  }
+
+  form .btn-enviar {
+    animation-name: enviar;
+    animation-duration: 800ms;
+    animation-delay: 250ms;
+    animation-fill-mode: backwards;
+  }
+
+  @keyframes enviar {
+    from {
+        opacity: 0;
+        transform: translateX(-85%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
