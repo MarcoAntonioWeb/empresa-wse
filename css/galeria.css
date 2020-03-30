@@ -4,7 +4,6 @@
     text-align: center;
 }
 
-
 .underline_galeria {
     content: '';
     border-top: 2px solid #FF8000;
@@ -17,15 +16,15 @@
 
  #img_js {
     list-style: none;
-    display: flex;
-    margin: 60px;
-  
+    display: flex;  
   }
   
   /*Estilizando a imagem */
   .min {
     width: 300px;
-    padding: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 15px;
+    box-shadow: 5px 5px 10px black;
   }
   .min:hover {
     opacity: 0.5;
@@ -33,7 +32,7 @@
   }
   
   .lbox {
-    width: 100%;
+    width: 95%;
     display: block;
     position: absolute;
     top: 0;
@@ -97,3 +96,86 @@
    
     text-align: center;
   }
+  @media screen and (min-width:320px) and (max-width:667px){
+    #img_js {
+      display: inline; 
+       
+    }
+    .min {
+      width: 90%;
+      padding: 5px 5px 5px 5px;
+      margin: 15px;
+      box-shadow: 5px 5px 10px black;
+    }
+    .min:hover {
+      opacity: 0.5;
+      transform: scale(1.1)
+    }
+    .lbox {
+      width: 50%;
+      display: block;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+    .lbox:hover {
+      background-color: white;
+      color: white;
+    }
+    
+    .lbox:target {
+      visibility: visible;
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(10, 10, 10, 0.7);
+      position: fixed;
+    }
+    .box_img {
+      margin: 30px 40px 30px 50px;
+    }
+
+    .box_img img{
+      margin-right: 7px;
+      margin-top: 150px;
+      width: 100%;
+      height: 300px;
+      
+    }
+    
+    .btn {
+      color: rgb(248, 244, 244) !important;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none !important;
+      position: absolute !important;
+      width: 50px !important;
+      height: 50px !important;
+      font-size: 40px !important;
+    }
+    
+    #prev {
+      left: 1% !important;
+      top: 40% !important;
+    }
+    
+    #next {
+      right: 0% !important;
+      top: 40% !important;
+    }
+    
+    #close {
+      top: 80px !important;
+      right: 1% !important;
+    }
+    
+    .lbox:target .box_img img {
+      opacity: 1;
+      transition: opacity .2s linear;
+    }
+  }
+  
