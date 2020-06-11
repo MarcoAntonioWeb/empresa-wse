@@ -86,9 +86,10 @@
 
 
 
- @media (min-width: 560px) {
+ @media (min-width: 300px) and (max-width: 1200px) {
   /* For mobile phones: */
   .navbar {
+    padding: 30px 30px 30px 30px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: .1rem;
@@ -101,15 +102,20 @@
   }
   
   button {
-    height: 90px;
+    height: 110px;
   }
   .navbar-toggler-icon {
-    width: 90px;
-    height: 80px;
+    width: 120px;
+    height: 90px;
   }
 
   #logo {
     width: 220px;
+    height: 120px;
+  }
+
+  .carousel {
+    margin-top: 190px;
   }
   
 }
