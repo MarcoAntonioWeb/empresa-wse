@@ -86,26 +86,30 @@
 
 
 
- @media (max-width: 600px) {
+ @media (min-width: 560px) {
   /* For mobile phones: */
   .navbar {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: .1rem;
     background: rgb(0, 0, 0) !important;
-    font-size: 1.3rem;
+    font-size: 3rem;
   }
 
  a.navbar-brand span{
     visibility: hidden;
   }
   
+  button {
+    height: 90px;
+  }
   .navbar-toggler-icon {
-    width: 40px;
+    width: 90px;
+    height: 80px;
   }
 
   #logo {
-    width: 120px;
+    width: 220px;
   }
   
 }
