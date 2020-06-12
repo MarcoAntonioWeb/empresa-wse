@@ -56,11 +56,12 @@
 
   
 }
-
 .img-thumbnail {
   width: 100%;
-  height: 240px;
+  height: 400px;
 }
+
+
 
 /** CONFIGURAÇÃO GERAL **/
 .underline {
@@ -150,6 +151,10 @@
     font-size: 2rem;
   }
 
+  #nossaMissao {
+    z-index: 4;
+  }
+
   #nossaMissao h1 {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 3rem;
@@ -160,8 +165,17 @@
   }
 
   .img-thumbnail {
+    width: 100% !important;
     height: 540px;
   }
+
+  .bg-parallax {
+    background:url(../img/parallax2.jpg) fixed;
+    background-size: 100% 800px;
+    background-repeat: no-repeat;    
+    height: 600px;
+
   
+  }
+
 }
- 
