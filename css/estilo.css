@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
 }
-
 .bg-dicas {
   -webkit-box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
   -moz-box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
@@ -40,6 +39,26 @@
   width: 100px;
   height: 100px;
 }
+
+/**** Quem Somos ****/
+#quemSomo {
+  padding: 20px;
+}
+
+#quemSomo  li{
+  list-style: none;
+}
+.dicas {
+  padding: 0 30px;
+}
+
+/*** Dica e Curiosidades ****/
+.dicaCuriosidade {
+  font-size: 32px;
+}
+
+
+
 /** CONFIGURAÇÃO MARCAS **/
 .bg-marcas:hover {
   box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
@@ -49,12 +68,9 @@
 
 /** CONFIGURAÇÃO NOSSA MISSÃO **/
 .bg-parallax {
-  background:url(../img/parallax2.jpg) fixed;
+  background:url(../img/parallax2.png) fixed;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-
-  
+  width: 100%;  
 }
 .img-thumbnail {
   width: 100%;
@@ -92,90 +108,4 @@
 
 
 
- @media (min-width: 300px) and (max-width: 1200px) {
-  /* For mobile phones: */
-  .navbar {
-    padding: 30px 30px 30px 30px;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: .1rem;
-    background: rgb(0, 0, 0) !important;
-    font-size: 3rem;
-  }
-
- a.navbar-brand span{
-    visibility: hidden;
-  }
-
-  .text-secondary {
-    width: 100% !important;
-  }
-  
-  button {
-    height: 110px;
-  }
-  .navbar-toggler-icon {
-    width: 120px;
-    height: 90px;
-  }
-
-  #logo {
-    width: 220px;
-    height: 120px;
-  }
-
-  .carousel img{
-    margin-top: 190px;
-    height: 500px;
-  }
-
-  #contato {
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  #quemSomos {
-    max-width: 100% !important;
-  }
-
-  #quemSomos h2{
-    font-size: 3.5rem;
-    font-weight: bold;
-  }
-
-  #quemSomos p{
-    font-size: 2rem;
-  }
-
-  p, h1, h2, h3, h4, h5, h6, li {
-    font-size: 2rem;
-  }
-
-  #nossaMissao {
-    z-index: 4;
-  }
-
-  #nossaMissao h1 {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 3rem;
-  }
-
-  .nossaMissaoText {
-    font-size: 2rem !important;
-  }
-
-  .img-thumbnail {
-    width: 100% !important;
-    height: 540px;
-  }
-
-  .bg-parallax {
-    background:url(../img/parallax2.jpg) fixed;
-    background-size: 100% 800px;
-    background-repeat: no-repeat;    
-    height: 600px;
-
-  
-  }
-
-}
+ 

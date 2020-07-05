@@ -1,0 +1,166 @@
+@media (min-width: 300px) and (max-width: 1200px) {
+   
+    /* For mobile phones: */
+    .navbar {
+      padding: 30px 30px 30px 30px;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: .1rem;
+      background: rgb(0, 0, 0) !important;
+      font-size: 3rem;
+    }
+  
+   a.navbar-brand span{
+      visibility: hidden;
+    }
+  
+    .text-secondary {
+      width: 100% !important;
+    }
+    
+    button {
+      height: 110px;
+    }
+    .navbar-toggler-icon {
+      width: 120px;
+      height: 90px;
+    }
+  
+    #logo {
+      width: 220px;
+      height: 120px;
+    }
+  
+    .carousel img{
+      margin-top: 190px;
+      height: 500px;
+    }
+  
+    #contato {
+      font-size: 2.5em;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text-secondary {
+        font-size: 2.7em !important;
+    }
+
+    .nossoServicos {
+        font-size: 2.6em;
+    }
+
+    .projeto {
+        padding-top: 80px;
+        font-size: 2.5em;
+    }
+
+    .projetoEletrico li {
+        list-style-type: none;
+        font-size: 2.7em;
+    }
+
+    .eletrica {
+        padding-top: 80px;
+        font-size: 2.5em;
+    }
+
+    .instalacaoEletrica li{
+        list-style-type: none;
+        font-size: 2.7em;
+    }
+
+    .acessos {
+        padding-top: 80px;
+        font-size: 2.5em;
+    }
+
+    .automatizadores li{
+        list-style-type: none;
+        font-size: 2.7em;
+    }
+
+    .sistema {
+        padding-top: 80px;
+        font-size: 2.5em;
+    }
+
+    .monitoramento li{
+        list-style-type: none;
+        font-size: 2.7em;
+    }
+    .dicas {
+        padding: 0 30px;
+    }
+
+    .dicas h5 {
+        font-size: 2.8em;
+    }
+
+    .dicaCuriosidade {
+        font-size: 3em;
+    }
+
+    .melhorMarca {
+        font-size: 3em;
+    }
+  
+  
+    h2.quemSomos{
+      font-size: 3.5em;
+      font-weight: bold;
+    }
+  
+    #quemSomos p{
+      font-size: 2em;
+    }
+
+  
+    #nossaMissao {
+      z-index: 4;
+    }
+  
+    #nossaMissao h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+    }
+  
+    .nossaMissaoText {
+      font-size: 2rem !important;
+    }
+     
+/** CONFIGURAÇÃO MARCAS **/
+.bg-marcas {
+    width: 100%;
+    max-height: 600px;
+}
+
+.bg-marcas:hover {
+    box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
+    border: 5px solid #f7f7f7;
+      transition: 0.8s;
+  }
+
+  #servico h1 {
+      font-size: 3em;
+  }
+
+  .bg-imagen img {
+      width: 100%;
+      height: 760px;
+  }
+  .bg-imagen img:hover {
+    box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
+    border: 5px solid #f7f7f7;
+      transition: 0.8s;
+  }
+  
+    .bg-parallax {
+      background:url(../img/parallax2.png) fixed;
+      background-size: 100%;
+      background-repeat: no-repeat;    
+      height: 100%;
+  
+    
+    }
+  
+  }
