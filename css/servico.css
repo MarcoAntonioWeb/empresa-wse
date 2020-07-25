@@ -67,6 +67,8 @@
    }
 
    @media screen and (min-width:320px) and (max-width:667px){
+   
+
     img#projetos {
         width: 100%;
         height: 400px;
@@ -128,7 +130,18 @@
       }
    }
 /** RESPONSIVEL TABLET ****/
-   @media screen and (min-width:667px) and (max-width:1024px){
+   @media screen and (min-width:300px) and (max-width:1024px) {
+    
+    .img_top {
+      margin-top: 150px;
+      width: 100%; 
+      height: 500px;
+     }
+
+    a.navbar-brand span{
+      visibility: hidden;
+    }
+
     img#projetos {
         width: 100%;
         height: 400px;
@@ -143,6 +156,11 @@
       .projet {
         padding-left: 20px;
         font-size: 20px;
+      }
+
+      .projet li {
+        text-decoration: none;
+        font-size: 1.5em;
       }
      
      #intalacoes_eletrica {
@@ -159,6 +177,11 @@
        padding-left: 20px;
        font-size: 20px;
      }
+
+     .eletric li {
+      text-decoration: none;
+      font-size: 1.8em;
+     }
       #automatizadores {
        width: 100%;
        height: 400px;
@@ -172,6 +195,11 @@
         padding-left: 20px;
         font-size: 20px;
       }
+
+      .acesso li {
+        text-decoration: none;
+        font-size: 1.8em;
+      }
       #monitoramento {
        width: 100%;
        height: 400px;
@@ -184,6 +212,15 @@
       .monitorar {
         padding-left: 20px;
         font-size: 20px;
+      }
+
+      .monitorar li {
+        text-decoration: none;
+        font-size: 1.8em;
+      }
+
+      .servico-row  h2{
+        font-size: 3.2em;
       }
    }
   
