@@ -131,6 +131,9 @@
    }
 /** RESPONSIVEL TABLET ****/
    @media screen and (min-width:300px) and (max-width:1024px) {
+    .servico-row  h2{
+      font-size: 4em;
+    }
     
     .img_top {
       margin-top: 150px;
@@ -160,7 +163,7 @@
 
       .projet li {
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: 2em;
       }
      
      #intalacoes_eletrica {
@@ -180,7 +183,7 @@
 
      .eletric li {
       text-decoration: none;
-      font-size: 1.8em;
+      font-size: 2em;
      }
       #automatizadores {
        width: 100%;
@@ -198,7 +201,7 @@
 
       .acesso li {
         text-decoration: none;
-        font-size: 1.8em;
+        font-size: 2em;
       }
       #monitoramento {
        width: 100%;
@@ -216,11 +219,9 @@
 
       .monitorar li {
         text-decoration: none;
-        font-size: 1.8em;
+        font-size: 2em;
       }
 
-      .servico-row  h2{
-        font-size: 3.2em;
-      }
+    
    }
   
