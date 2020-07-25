@@ -97,6 +97,10 @@
         font-size: 3em;
     }
 
+    .link-dica {
+      font-size: 40px;
+    }
+
     .text-secondary {
         font-size: 2em;
         text-align: justify;
