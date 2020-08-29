@@ -10,15 +10,15 @@
   <meta name="keywords" content="Serviços, Manutenção, Prevenção em Elétrica"/>
   <meta name="copyright" content="World Soluções Elétrica"/>
 
-  <title>World Soluções Elétrica</title>
+	<title>World Soluções Elétrica</title>
   <!-- CSS BOOTSTRAP !-->	
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <!-- CSS PERSONALIZADA !-->
   <link rel="stylesheet" type="text/css" href="css/estilo.css">
   <link rel="stylesheet" type="text/css" href="css/servico.css">
   <link rel="stylesheet" type="text/css" href="css/galeria.css">
   <link rel="stylesheet" type="text/css" href="css/contato.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
 <!-- CSS FONTES !-->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300i,400,400i" rel="stylesheet"> 
@@ -31,14 +31,14 @@
 <!--Corpo do site-->	
 <body>
 
-   <div class="container-fluit bg-topo fixed-top col-xl-12 col-lg-12 col-sm-12">
-    <div>
-      <nav class="navbar navbar-expand-xl navbar-dark text-light">
+   <div class="row">
+    <div class="container-fluit bg-topo fixed-top col-md-12">
+      <nav class="navbar navbar-expand-xl navbar-dark">
 
 <!-- BRAND !-->        
         <a class="navbar-brand" href="#">
-          <img src="img/logo.png" alt="Logo" style="width:80px;">
-          W.S.Elétrica
+          <img id="logo" src="img/logo.png" alt="Logo">
+          <span>W.S.Elétrica</span>
         </a>
 
 <!-- Toggler/collapsibe Button -->
@@ -66,147 +66,123 @@
         </div>             
       </nav>
     </div>
-  </div><!--Final do NAVBAR LINKS -->
-
-<div class="container-fluit col-xl-12 col-gl-12"> 
+  </div><!--Final do NAVBAR LINKS-->
+<div class="container"> 
   <div class="py-5"></div> 
     <h1 class="h1_galeria">Veja alguns dos nossos serviços</h1>
         <span class="underline_galeria"></span>
             <div class="py-2"></div>
  
-      <div class="row"> 
-         <div class="col-xl-12 col-md-4">     
-            <ul id="img_js">
-              <li>
-                <a href="#img1">
-                  <img src="portifolio/1.jpg" alt="" class="min">
-                </a>
-              </li>
-              <li>
-                <a href="#img2">
-                  <img src="portifolio/2.jpg" alt="" class="min">
-                </a>
-              </li>
-              <li>
-                <a href="#img3">
-                  <img src="portifolio/3.jpg" alt="" class="min">
-                </a>
-              </li>
-              <li>
-                <a href="#img4">
-                  <img src="portifolio/4.jpg" alt="" class="min">
-                </a>
-              </li>
-          </ul>
+       
+         <div class="grupo">     
+              <div><a href="#img1"><img class="min" src="portifolio/portf1.jpg" alt="Imagem DF Plaza"></a></div>
+              <div><a href="#img2"><img class="min" src="portifolio/portf2.jpg" alt="Imagem DF Plaza"></a></div>
+              <div><a href="#img3"><img class="min" src="portifolio/portf3.jpg" alt="Imagem Ceilândia"></a></div>
+              <div><a href="#img4"><img class="min" src="portifolio/portf4.jpg" alt="Imagem DF Plaza"></a></div>
         </div>
-      </div>
 
+        <div class="py-3"></div> 
 
-      <div class="row"> 
-        <div class="col-sm-12"> 
-          <ul id="img_js">
-            <li><a href="#img5"><img src="portifolio/5.jpg" alt="" class="min"></a></li>
-            <li><a href="#img6"><img src="portifolio/6.jpg" alt="" class="min"></a></li>
-            <li><a href="#img7"><img src="portifolio/7.jpg" alt="" class="min"></a></li>
-            <li><a href="#img8"><img src="portifolio/8.jpg" alt="" class="min"></a></li>
-          </ul>
-      </div>
-      </div>
-  
+        <div class="grupo">     
+          <div><a href="#img5"><img class="min" src="portifolio/portf5.jpg" alt="Imagem DF Plaza"></a></div>
+          <div><a href="#img6"><img class="min" src="portifolio/portf6.jpg" alt="Imagem Pose"></a></div>
+          <div><a href="#img7"><img class="min" src="portifolio/portf7.jpg" alt="Imagem Igreja do Monte"></a></div>
+          <div><a href="#img8"><img class="min" src="portifolio/portf8.jpg" alt="Imagem Lanchonete"></a></div>
+      </div>     
       
-        
+      <div class="py-5"></div> 
+</div>    
+
+
           <div class="lbox" id="img1">
              <div class="box_img">
                 <a href="#img8" class="btn" id="prev">&#171;</a>
                 <a href="" class="btn" id="close">x</a>
-                <img src="portifolio/1.jpg" alt="">
+                <img src="portifolio/portf1.jpg" alt="">
                 <a href="#img2" class="btn" id="next">&#187;</a>
-            </div>
-         </div>
+             </div>
+          </div>
        
-      
+          <div class="lbox" id="img2">
+            <div class="box_img">
+              <a href="#img1" class="btn" id="prev">&#171;</a>
+              <a href="" class="btn" id="close">x</a>
+              <img src="portifolio/portf2.jpg" alt="">
+              <a href="#img3" class="btn" id="next">&#187;</a>
+            </div>
+          </div>
 
-<div class="lbox" id="img2">
-        <div class="box_img">
-            <a href="#img1" class="btn" id="prev">&#171;</a>
-            <a href="" class="btn" id="close">x</a>
-            <img src="portifolio/2.jpg" alt="">
-            <a href="#img3" class="btn" id="next">&#187;</a>
-        </div>
-    </div>
-
-    <div class="lbox" id="img3">
+          <div class="lbox" id="img3">
             <div class="box_img">
                 <a href="#img2" class="btn" id="prev">&#171;</a>
                 <a href="" class="btn" id="close">x</a>
-                <img src="portifolio/3.jpg" alt="">
+                <img src="portifolio/portf3.jpg" alt="">
                 <a href="#img4" class="btn" id="next">&#187;</a>
             </div>
-        </div>
+          </div>
 
-        <div class="lbox" id="img4">
-                <div class="box_img">
-                    <a href="#img3" class="btn" id="prev">&#171;</a>
-                    <a href="" class="btn" id="close">x</a>
-                    <img src="portifolio/4.jpg" alt=""style=>
-                    <a href="#img5" class="btn" id="next">&#187;</a>
-                </div>
-            </div>
+          <div class="lbox" id="img4">
+              <div class="box_img">
+                  <a href="#img3" class="btn" id="prev">&#171;</a>
+                  <a href="" class="btn" id="close">x</a>
+                  <img src="portifolio/portf4.jpg" alt=""style=>
+                  <a href="#img5" class="btn" id="next">&#187;</a>
+              </div>
+          </div>
 
-            <div class="lbox" id="img5">
+          <div class="lbox" id="img5">
               <div class="box_img">
                   <a href="#img4" class="btn" id="prev">&#171;</a>
                   <a href="" class="btn" id="close">x</a>
-                  <img src="portifolio/5.jpg" alt="">
+                  <img src="portifolio/portf5.jpg" alt="">
                   <a href="#img6" class="btn" id="next">&#187;</a>
               </div>
           </div>
           
           <div class="lbox" id="img6">
-                  <div class="box_img">
-                      <a href="#img5" class="btn" id="prev">&#171;</a>
-                      <a href="" class="btn" id="close">x</a>
-                      <img src="portifolio/6.jpg" alt="">
-                      <a href="#img7" class="btn" id="next">&#187;</a>
-                  </div>
+              <div class="box_img">
+                  <a href="#img5" class="btn" id="prev">&#171;</a>
+                  <a href="" class="btn" id="close">x</a>
+                  <img src="portifolio/portf6.jpg" alt="">
+                  <a href="#img7" class="btn" id="next">&#187;</a>
               </div>
+          </div>
           
-              <div class="lbox" id="img7">
-                      <div class="box_img">
-                          <a href="#img6" class="btn" id="prev">&#171;</a>
-                          <a href="" class="btn" id="close">x</a>
-                          <img src="portifolio/7.jpg">
-                          <a href="#img8" class="btn" id="next">&#187;</a>
-                      </div>
-                  </div>
+          <div class="lbox" id="img7">
+              <div class="box_img">
+                    <a href="#img6" class="btn" id="prev">&#171;</a>
+                    <a href="" class="btn" id="close">x</a>
+                    <img src="portifolio/portf7.jpg">
+                    <a href="#img8" class="btn" id="next">&#187;</a>
+              </div>
+          </div>
           
-                  <div class="lbox" id="img8">
-                          <div class="box_img">
-                              <a href="#img7" class="btn" id="prev">&#171;</a>
-                              <a href="" class="btn" id="close">x</a>
-                              <img src="portifolio/8.jpg">
-                              <a href="#img1" class="btn" id="next">&#187;</a>
-                          </div>
-                      </div>
-                            
+          <div class="lbox" id="img8">
+              <div class="box_img">
+                    <a href="#img7" class="btn" id="prev">&#171;</a>
+                    <a href="" class="btn" id="close">x</a>
+                    <img src="portifolio/portf8.jpg">
+                    <a href="#img1" class="btn" id="next">&#187;</a>
+              </div>
+          </div>
 
-  </div>
+
 
   <!-- SEÇÃO FOOTER -->
-  <footer class="container-fluit bg-dark text-light py-5  col-xl-12 col-lg-12 col-sm-12">
+  <footer class="container-fluit bg-dark text-light py-5">
     <div class="py-2">
       <div class="container px-5">
         <div class="row">
-          <div class="col-sm-6 col-lg-5 col-xl-4">
+          <div class="col-sm-12 col-lg-5 col-xl-4">
             <h3 class="text-fonte mt-3">Endereço</h3>
             <span class="underline-footer"></span> 
-            <p class="mt-3">
-                QS 314 Conjunto 2 Lote 3<br>
+            <p class="endereco mt-3">
+                QR 316 Conjunto 7 Lote 10<br>
                 Samambaia Sul<br>
-                CEP: 72.000-00
+                CEP: 72.308-607
             </p>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-sm-12 col-lg-5 col-xl-4">
             <h3 class="text-fonte mt-3">Entre em Contato</h3>
              <span class="underline-footer"></span>
               <div class="icon mt-3">
@@ -252,12 +228,7 @@
     </div>
  
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-
+   
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
