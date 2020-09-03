@@ -1,100 +1,107 @@
 @media (min-width: 300px) and (max-width: 1200px) {
    
     /* For mobile phones: */
+   
     .navbar {
-      padding: 30px 30px 30px 30px;
       text-transform: uppercase;
       font-weight: 400;
       letter-spacing: .1rem;
       background: rgb(0, 0, 0) !important;
-      font-size: 3rem;
+      font-size: 1.5rem;
     }
   
    a.navbar-brand span{
       visibility: hidden;
     }
-
     
     button {
-      height: 110px;
+      height: 50px;
     }
     .navbar-toggler-icon {
-      width: 120px;
-      height: 90px;
+      width: 50px;
+      height: 40px;
     }
   
     #logo {
-      width: 220px;
-      height: 120px;
+      width: 80px;
+      height: 70px;
     }
   
     .carousel img{
-      margin-top: 190px;
-      height: 500px;
+      margin-top: 90px;
+      height: 400px;
     }
   
     #contato {
-      font-size: 2.5em;
+      font-size: 1.5em;
       font-family: Arial, Helvetica, sans-serif;
     }
 
+    h2.quemSomos{
+      font-size: 3em;
+      font-weight: 600;
+    }
+
+    #quemSomos p{
+      font-size: 2em;
+    }
+
+
     .text-secondary {
-        font-size: 2.7em !important;
+        font-size: 1.4em !important;
     }
 
     .nossoServicos {
-        font-size: 2.6em;
+        font-size: 2em;
     }
 
     .projeto {
-        padding-top: 80px;
-        font-size: 2.5em;
+        padding-top: 30px;
+        font-size: 2em;
     }
 
     .projetoEletrico li {
         list-style-type: none;
-        font-size: 2.7em;
+        font-size: 1.5em;
     }
 
     .eletrica {
-        padding-top: 80px;
-        font-size: 2.5em;
+        padding-top: 30px;
+        font-size: 2em;
     }
 
     .instalacaoEletrica li{
         list-style-type: none;
-        font-size: 2.7em;
+        font-size: 1.5em;
     }
 
     .acessos {
-        padding-top: 80px;
-        font-size: 2.5em;
+        padding-top: 30px;
+        font-size: 2em;
     }
 
     .automatizadores li{
         list-style-type: none;
-        font-size: 2.7em;
+        font-size: 1.5em;
     }
 
     .sistema {
-        padding-top: 80px;
-        font-size: 2.5em;
+        padding-top: 30px;
+        font-size: 2em;
     }
 
     .monitoramento li{
         list-style-type: none;
-        font-size: 2.7em;
+        font-size: 1.5em;
     }
-    .dicas {
-        padding: 0 30px;
-    }
+   
 
     .dicas h5 {
-        font-size: 2.8em;
+        font-size: 2em;
     }
 
     .dicaCuriosidade {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .link-dica {
@@ -109,31 +116,21 @@
     }
 
     .melhorMarca {
-        font-size: 3em;
-    }
-  
-  
-    h2.quemSomos{
-      font-size: 3.5em;
-      font-weight: bold;
-    }
-  
-    #quemSomos p{
-      font-size: 2em;
+        font-size: 2em;
     }
 
-  
     #nossaMissao {
       z-index: 4;
     }
   
     #nossaMissao h1 {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 3rem;
+        font-size: 2rem;
     }
   
-    .nossaMissaoText {
-      font-size: 2rem !important;
+    p.nossaMissaoText {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5rem !important;
     }
      
 /** CONFIGURAÇÃO MARCAS **/
@@ -149,12 +146,12 @@
   }
 
   #servico h1 {
-      font-size: 3em;
+      font-size: 2em;
   }
 
   .bg-imagen img {
       width: 100%;
-      height: 760px;
+      height: 300px;
   }
   .bg-imagen img:hover {
     box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
@@ -183,15 +180,15 @@
     
 /** Footer ****/
     .text-fonte {
-      font-size: 3.7em;
+      font-size: 2em;
     }
 
     .endereco {
-      font-size: 2.5em;
+      font-size: 1.5em;
     }
 
     .icon {
-      font-size: 2.2em;
+      font-size: 1.2em;
     }
 
     .icon-novo {
@@ -203,12 +200,13 @@
     }
 
     .fa-envelope {
-      font-size: 1em;
+      position: absolute;
+      visibility: hidden;
     
     }
 
     .footer-copyright {
-      font-size: 2.2em;
+      font-size: 1.3em;
     }
 
     footer {
@@ -220,3 +218,199 @@
     }
   
   }
+
+  /****** Responsivel do Serviço **********/
+  @media screen and (min-width:320px) and (max-width:667px){
+   
+    img#projetos {
+        width: 100%;
+        height: 400px;
+       -webkit-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       -moz-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       border: 1px solid rgb(236, 231, 231);
+       border-radius: 5px;
+       margin-right: 10px;
+     
+      }
+      .projet {
+        padding-left: 20px;
+        font-size: 20px;
+      }
+     
+     #intalacoes_eletrica {
+         width: 100%;
+         height: 400px;
+       -webkit-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       -moz-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       border: 1px solid rgb(236, 231, 231);
+       border-radius: 5px;
+     
+     }
+     .eletric {
+       padding-left: 20px;
+       font-size: 20px;
+     }
+      #automatizadores {
+          display: block;
+          float: left;
+       width: 100%;
+       height: 400px;
+       -webkit-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       -moz-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       border: 1px solid rgb(236, 231, 231);
+       border-radius: 5px;
+      }
+      .acesso {
+        padding-left: 20px;
+        font-size: 20px;
+      }
+      #monitoramento {
+          float: left;
+       width: 100%;
+       height: 400px;
+       -webkit-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       -moz-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       border: 1px solid rgb(236, 231, 231);
+       border-radius: 5px;
+      }
+      .monitorar {
+        padding-left: 20px;
+        font-size: 20px;
+      }
+   }
+/** RESPONSIVEL TABLET ****/
+   @media screen and (min-width:300px) and (max-width:1024px) {
+    .servico-row  h2{
+      font-size: 2em;
+    }
+    
+    .img_top {
+      margin-top: 50px;
+      width: 100%; 
+      height: 400px;
+     }
+
+    a.navbar-brand span{
+      visibility: hidden;
+    }
+
+    img#projetos {
+        width: 95%;
+        height: 300px;
+       -webkit-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       -moz-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       border: 1px solid rgb(236, 231, 231);
+       border-radius: 5px;
+       margin-right: 10px;
+     
+      }
+      .projet {
+        padding-left: 20px;
+      }
+
+      .projet li {
+        list-style: none;
+        font-size: 1.3em;
+      }
+     
+     #intalacoes_eletrica {
+         width: 95%;
+         height: 300px;
+       -webkit-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       -moz-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       border: 1px solid rgb(236, 231, 231);
+       border-radius: 5px;
+     
+     }
+     .eletric {
+       padding-left: 20px;
+     }
+
+     .eletric li {
+      font-size: 1.3em;
+      list-style: none;
+     }
+      #automatizadores {
+       width: 95%;
+       height: 300px;
+       -webkit-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       -moz-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       border: 1px solid rgb(236, 231, 231);
+       border-radius: 5px;
+      }
+      .acesso {
+        padding-left: 20px;
+      }
+
+      .acesso li {
+        font-size: 1.3em;
+        list-style: none;
+      }
+      #monitoramento {
+       width: 95%;
+       height: 300px;
+       -webkit-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       -moz-box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       box-shadow: 10px 10px  7px rgba(50, 50, 50, 0.77);
+       border: 1px solid rgb(236, 231, 231);
+       border-radius: 5px;
+      }
+      .monitorar {
+        padding-left: 20px;
+      }
+
+      .monitorar li {
+        font-size: 1.3em;
+        list-style: none;
+      }
+
+    
+   }
+
+   /****** Responsivel Galeria **********/
+   @media screen and (min-width:300px) and (max-width:1024px) {
+    .grupo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center !important;
+      align-items: center;
+    }
+
+    .box_img {
+      margin: 100px auto;
+    }
+
+    .box_img img{
+      padding: 8px 40px 8px 0px;
+      width: 70%;
+      height: 350px;
+      
+    }
+
+    #prev {
+      left: 2% ;
+      top: 43% ;
+      font-size: 4rem;
+    }
+    
+    #next {
+      font-size: 4rem;
+      right: 2% ;
+      top: 43% ;
+    }
+    
+    #close {
+      font-size: 3rem;
+      border: none;
+      top: 13%;
+      right: 2%;
+    }
+
+   }
