@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .bg-dicas {
   -webkit-box-shadow: 0px 0px  7px rgba(50, 50, 50, 0.77);
