@@ -17,7 +17,7 @@
  .bg-topo {
   background-color: black;
   opacity: 1;
-
+  overflow: hidden;
 }
    .navbar {
   text-transform: uppercase;
