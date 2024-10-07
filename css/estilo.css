@@ -68,6 +68,7 @@
 .bg-parallax {
   background:url(../img/parallax2.png) fixed;
   background-repeat: no-repeat;
+  background-size: 100%;	
   width: 100%;  
 }
 .img-thumbnail {
